@@ -1,9 +1,9 @@
 {
-	"extends": ["next/core-web-vitals", "plugin:tailwindcss/recommendation"],
-	"rules": {
-		"eslint-plugin-import/no-anonymous-default-export": "off",
-		"tailwindcss/no-custom-classname": "off",
-		"tailwindcss/enforces-negative-arbitrary-values": "off"
-	},
-	"plugins": ["tailwindcss"]
+  "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended"],
+  "rules": {
+    "eslint-plugin-import/no-anonymous-default-export": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/enforces-negative-arbitrary-values": "off"
+  },
+  "plugins": ["tailwindcss"]
 }
