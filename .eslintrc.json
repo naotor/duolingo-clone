@@ -5,5 +5,8 @@
     "tailwindcss/no-custom-classname": "off",
     "tailwindcss/enforces-negative-arbitrary-values": "off"
   },
-  "plugins": ["tailwindcss"]
+  "plugins": ["tailwindcss"],
+  "parserOptions": {
+    "loggerFn": false
+  }
 }
