@@ -20,7 +20,7 @@ export function SidebarItem({ key, label, iconSrc, href }: SidebarItemProps) {
       key={key}
       asChild
       variant={active ? "sidebarOutline" : "sidebar"}
-      className="justify-start h-[52px]"
+      className="h-[52px] justify-start"
     >
       <Link href={href}>
         <Image
