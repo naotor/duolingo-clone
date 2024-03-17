@@ -1,3 +1,4 @@
+import { Providers } from "@/components/providers";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
@@ -16,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className={font.className}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
